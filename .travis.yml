@@ -17,7 +17,7 @@ cache:
 before_deploy:
   - cd client
   - npm install
-  - npm run build -- --base-href "https://elsorbo.github.io/angular-deploy-test/"
+  - npm run build
 
 deploy:
   provider: pages
