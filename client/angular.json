@@ -52,7 +52,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/angular-deploy-test"
+              "baseHref": "./"
             },
             "development": {
               "buildOptimizer": false,
