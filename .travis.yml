@@ -17,7 +17,7 @@ cache:
 before_deploy:
   - cd client
   - npm install
-  - npm run build --base-href="/angular-deploy-test"
+  - npm run build --base-href="/angular-deploy-test/"
 
 deploy:
   provider: pages
