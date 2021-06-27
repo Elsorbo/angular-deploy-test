@@ -13,6 +13,8 @@ cache:
 after_success:
   - cd client
   - npm install
+
+before_deploy:
   - npm run build
 
 deploy:
