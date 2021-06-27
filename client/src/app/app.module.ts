@@ -20,7 +20,8 @@ import { MenuComponent } from '../components/menu/menu.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
