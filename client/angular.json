@@ -52,7 +52,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "https://elsorbo.github.io/angular-deploy-test/"
+              "baseHref": "https://elsorbo.github.io/angular-deploy-test"
             },
             "development": {
               "buildOptimizer": false,
