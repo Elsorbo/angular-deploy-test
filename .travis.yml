@@ -24,7 +24,7 @@ deploy:
   skip_cleanup: true
   keep_history: true
   api_key: $HEROKU_KEY
-  app: nodejs-practico
+  app: restaurantedonbolo
   local_dir: client/dist/client
   on:
     repo: Elsorbo/angular-deploy-test
