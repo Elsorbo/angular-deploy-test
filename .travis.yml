@@ -17,12 +17,15 @@ cache:
 before_deploy:
   - cd client
   - npm install
-  - npm run build -- --base-href /angular-deploy-test/
+  - npm run build
 
 deploy:
-  provider: pages
+  provider: heroku
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  keep_history: true
+  api_key: $HEROKU_KEY
+  app: nodejs-practico
   local_dir: client/dist/client
   on:
+    repo: Elsorbo/angular-deploy-test
     branch: main
