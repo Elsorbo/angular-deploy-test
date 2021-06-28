@@ -30,3 +30,4 @@ deploy:
   local_dir: client/dist/client
   on:
     branch: main
+
