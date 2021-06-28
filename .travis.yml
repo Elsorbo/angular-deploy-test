@@ -27,5 +27,4 @@ deploy:
   app: restaurantedonbolo
   local_dir: client/dist/client
   on:
-    repo: Elsorbo/angular-deploy-test
     branch: main
