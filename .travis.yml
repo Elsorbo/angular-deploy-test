@@ -18,6 +18,8 @@ before_deploy:
   - cd client
   - npm install
   - npm run build
+  - cd dist
+  - echo '{"root": "./client"}' > static.json
 
 deploy:
   provider: heroku
