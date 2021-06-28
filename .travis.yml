@@ -18,8 +18,8 @@ before_deploy:
   - cd client
   - npm install
   - npm run build
-  - cp static.json build/static.json
-  - cd build
+  - cp static.json dist/static.json
+  - cd dist
 
 deploy:
   provider: heroku
