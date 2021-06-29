@@ -27,7 +27,6 @@ deploy:
   keep_history: true
   api_key: $HEROKU_KEY
   app: restaurantedonbolo
-  local_dir: client/dist/client
   on:
     branch: main
 
